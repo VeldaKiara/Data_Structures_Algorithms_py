@@ -5,8 +5,7 @@ Python
 
 ### Content
 
-<<<<<<< HEAD
-=======
+
 ### Stack
 
 The stack data structure allows us to place any programming artifact, variable or object on it.<br>
@@ -28,7 +27,5 @@ Peek<br>
 - Helps to check whether the stack is empty or other things that may come up.
 
 
-
->>>>>>> 97e2d81553c1aa326678cea1f6f8a7e7adb46bf5
 
 
