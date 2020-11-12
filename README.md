@@ -26,6 +26,8 @@ Peek<br>
 - Used to return the top element.<br>
 - Helps to check whether the stack is empty or other things that may come up.
 
+[stack operation example](https://github.com/veldakarimi/Data_Structures_Algorithms_py/blob/master/DSA/Stack/stack_structure.py#L5-L34)
+
 
 
 
