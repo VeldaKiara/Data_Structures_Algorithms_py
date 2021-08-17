@@ -1,3 +1,6 @@
+# Given two sorted lists, merge them into one list which 
+# should also be sorted.
+
 def merge_lists(lst1, lst2):
     #initializing two variables to track the current index of each list
     index1 = 0
