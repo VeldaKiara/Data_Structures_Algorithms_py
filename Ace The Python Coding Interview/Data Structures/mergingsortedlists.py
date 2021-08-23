@@ -33,7 +33,7 @@ lst1 = [2,3,5]
 lst2 = [1,4,6]
 print(merge_lists(lst1,lst2))
 
-#algorithm test case fails
+#algorithm test case fails because it uses stacks 
 # lst1 = [5,3,1]
 # lst2 = [6,4,2]
 # print(merge_lists(lst1,lst2))
