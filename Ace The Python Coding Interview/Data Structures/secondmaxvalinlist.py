@@ -28,5 +28,27 @@ def find_second_maximum(lst):
 print(find_second_maximum([9, 2, 3, 6,7,5]))
 print(find_second_maximum([2,4,1,2,3,4])) 
 
+#traversing the list of elements twice
+def find_second_maximum(lst):
+    first_max_value = float('-inf')
+    second_max_value = float('-inf')
+    # find first max
+    for number in lst:
+        if number > first_max_value:
+            first_max_value = number
+    # find max relative to first max
+    for number in lst:
+        if number != first_max_value and number > second_max_value:
+            second_max_value = number
+    return second_max_value
+
+
+print(find_second_maximum([9, 2, 3, 6]))
+print(find_second_maximum([9, 2, 3, 6,5,5]))
+print(find_second_maximum([2,4,4]))
+
+
+
+
 
 
