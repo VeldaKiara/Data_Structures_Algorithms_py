@@ -1,3 +1,16 @@
+'''
+write a function that takes in a non-empty array of
+ distinct integers and an integer representing a target sum.
+ if any of the numbers in the input array sum up to the target sum, the function
+ should return them in an array, in any order. if no two numbers sum up
+  to the target sum, the function should return an empty array.
+  note that the target sum has to be obtained by summing two 
+  different integers in the array;
+   you can't add a single integer to itself in order to obtain the target sum.
+   you can assume that there will be at most one pair of numbers 
+   summing up to the target sum.
+'''
+
 #sol 1
 #using  a for loop to loop through the numbers
 #and checking if the sum is equal to the target
