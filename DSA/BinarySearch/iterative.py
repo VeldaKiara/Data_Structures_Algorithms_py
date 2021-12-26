@@ -1,6 +1,5 @@
-# Binary Search in python
-
-
+# Binary Search 
+# time O(1) | space O(1)    
 def binarySearch(array, x, low, high):
 
     # Repeat until the pointers low and high meet each other
