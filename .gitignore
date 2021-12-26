@@ -170,4 +170,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+#algoexpert
+Algoexpert
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,python
